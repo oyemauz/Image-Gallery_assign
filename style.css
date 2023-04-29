@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  width: 100rem;
+  margin: 2rem auto;
+}
+
+.primary_heading {
+  font-size: 4.6rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: lightblue;
+}
+
+.quotes {
+  font-size: 2.4rem;
+  color: #acc8e5;
+  line-height: 1.5;
+}
+
+.para {
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+.images {
+  margin-top: 3.4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.images img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+img:hover {
+  object-fit: cover;
+  /* filter: grayscale(0); */
+  transform: scale(1.1);
+  box-sizing: border-box;
+}
